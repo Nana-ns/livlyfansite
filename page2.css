@@ -1,0 +1,646 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: nagomi;
+    src: url(nagomi.otf) format("opentype");
+}
+
+body {
+    width: 100%;
+    background: #FFDDDB;
+    background-size: cover;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    align-self: center;
+}
+
+.backButton {
+    width: 11%;
+    position: fixed;
+    bottom: 10px;
+    right: 7px;
+}
+
+
+.layoutImg {
+    width: 20%;
+    margin-top: 10px;
+}
+
+/* ポップアップウインドウの設定 */
+.popup {
+    background-color: #fff;
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, .8);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 70%;
+    height: 90%;
+    overflow-y: scroll;
+}
+
+.popup2 {
+    background-color: #fff;
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, .8);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 70%;
+    height: 90%;
+    overflow-y: scroll;
+}
+
+.popup3 {
+    background-color: #fff;
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, .8);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 70%;
+    height: 90%;
+    overflow-y: scroll;
+}
+
+.popup4 {
+    background-color: #fff;
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, .8);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 70%;
+    height: 90%;
+    overflow-y: scroll;
+}
+
+.popup5 {
+    background-color: #fff;
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, .8);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 70%;
+    height: 90%;
+    overflow-y: scroll;
+}
+
+.popup6 {
+    background-color: #fff;
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, .8);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 70%;
+    height: 90%;
+    overflow-y: scroll;
+}
+
+.popup7 {
+    background-color: #fff;
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, .8);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 70%;
+    height: 90%;
+    overflow-y: scroll;
+}
+
+.popup8 {
+    background-color: #fff;
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, .8);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 70%;
+    height: 90%;
+    overflow-y: scroll;
+}
+
+.popup9 {
+    background-color: #fff;
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, .8);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 70%;
+    height: 90%;
+    overflow-y: scroll;
+}
+
+.popup10 {
+    background-color: #fff;
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, .8);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 70%;
+    height: 90%;
+    overflow-y: scroll;
+}
+
+.popup11 {
+    background-color: #fff;
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, .8);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 70%;
+    height: 90%;
+    overflow-y: scroll;
+}
+
+.popup12 {
+    background-color: #fff;
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, .8);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 70%;
+    height: 90%;
+    overflow-y: scroll;
+}
+
+.popup13 {
+    background-color: #fff;
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, .8);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 70%;
+    height: 90%;
+    overflow-y: scroll;
+}
+
+.popup14 {
+    background-color: #fff;
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, .8);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 70%;
+    height: 90%;
+    overflow-y: scroll;
+}
+
+.popup15 {
+    background-color: #fff;
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, .8);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 70%;
+    height: 90%;
+    overflow-y: scroll;
+}
+
+.popup16 {
+    background-color: #fff;
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, .8);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 70%;
+    height: 90%;
+    overflow-y: scroll;
+}
+
+.popup17 {
+    background-color: #fff;
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, .8);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 70%;
+    height: 90%;
+    overflow-y: scroll;
+}
+
+.popup18 {
+    background-color: #fff;
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, .8);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 70%;
+    height: 90%;
+    overflow-y: scroll;
+}
+
+.popup19 {
+    background-color: #fff;
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, .8);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 70%;
+    height: 90%;
+    overflow-y: scroll;
+}
+
+.popup20 {
+    background-color: #fff;
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, .8);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 70%;
+    height: 90%;
+    overflow-y: scroll;
+}
+
+.popup21 {
+    background-color: #fff;
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, .8);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 70%;
+    height: 90%;
+    overflow-y: scroll;
+}
+
+.popup22 {
+    background-color: #fff;
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, .8);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 70%;
+    height: 90%;
+    overflow-y: scroll;
+}
+
+.popup23 {
+    background-color: #fff;
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, .8);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 70%;
+    height: 90%;
+    overflow-y: scroll;
+}
+
+.popup24 {
+    background-color: #fff;
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, .8);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 70%;
+    height: 90%;
+    overflow-y: scroll;
+}
+
+
+
+/* チェックボックスの初期設定 */
+#popup-on {
+    display: none;
+}
+
+/* チェックされたらポップアップウインドウを開く */
+#popup-on:checked + .popup {
+    display: block;
+}
+
+#popup-on2 {
+    display: none;
+}
+
+#popup-on2:checked + .popup2 {
+    display: block;
+}
+
+#popup-on3 {
+    display: none;
+}
+
+#popup-on3:checked + .popup3 {
+    display: block;
+}
+
+#popup-on4 {
+    display: none;
+}
+
+#popup-on4:checked + .popup4 {
+    display: block;
+}
+
+#popup-on5 {
+    display: none;
+}
+
+#popup-on5:checked + .popup5 {
+    display: block;
+}
+
+#popup-on6 {
+    display: none;
+}
+
+#popup-on6:checked + .popup6 {
+    display: block;
+}
+
+#popup-on7 {
+    display: none;
+}
+
+#popup-on7:checked + .popup7 {
+    display: block;
+}
+
+#popup-on8 {
+    display: none;
+}
+
+#popup-on8:checked + .popup8 {
+    display: block;
+}
+
+#popup-on9 {
+    display: none;
+}
+
+#popup-on9:checked + .popup9 {
+    display: block;
+}
+
+#popup-on10 {
+    display: none;
+}
+
+#popup-on10:checked + .popup10 {
+    display: block;
+}
+
+#popup-on11 {
+    display: none;
+}
+
+#popup-on11:checked + .popup11 {
+    display: block;
+}
+
+#popup-on12 {
+    display: none;
+}
+
+#popup-on12:checked + .popup12 {
+    display: block;
+}
+
+
+#popup-on13 {
+    display: none;
+}
+
+#popup-on13:checked + .popup13 {
+    display: block;
+}
+
+#popup-on14 {
+    display: none;
+}
+
+#popup-on14:checked + .popup14 {
+    display: block;
+}
+
+#popup-on15 {
+    display: none;
+}
+
+#popup-on15:checked + .popup15 {
+    display: block;
+}
+
+#popup-on16 {
+    display: none;
+}
+
+#popup-on16:checked + .popup16 {
+    display: block;
+}
+
+#popup-on17 {
+    display: none;
+}
+
+#popup-on17:checked + .popup17 {
+    display: block;
+}
+
+#popup-on18 {
+    display: none;
+}
+
+#popup-on18:checked + .popup18 {
+    display: block;
+}
+
+#popup-on19 {
+    display: none;
+}
+
+#popup-on19:checked + .popup19 {
+    display: block;
+}
+
+#popup-on20 {
+    display: none;
+}
+
+#popup-on20:checked + .popup20 {
+    display: block;
+}
+
+#popup-on21 {
+    display: none;
+}
+
+#popup-on21:checked + .popup21 {
+    display: block;
+}
+
+#popup-on22 {
+    display: none;
+}
+
+#popup-on22:checked + .popup22 {
+    display: block;
+}
+
+#popup-on23 {
+    display: none;
+}
+
+#popup-on23:checked + .popup23 {
+    display: block;
+}
+
+#popup-on24 {
+    display: none;
+}
+
+#popup-on2r:checked + .popup24 {
+    display: block;
+}
+
+/* 閉じるアイコン（右上） */
+.icon-close {
+    background: #e21924;
+    color: #fff;
+    font-size: 40px;
+    padding: 0 15px;
+    position: absolute;
+    right: 1%;
+    top: 1%;
+    cursor: pointer;
+}
+
+
+/* 開くボタン */
+.btn-open {
+    cursor: pointer;
+    text-align: center;
+}
+
+/* ポップアップの内容 */
+.popup-content {
+    margin: 40px auto 40px auto;
+    width: 90%;
+}
+
+.pop-box {
+    display: inline-block;
+    width: 30%;
+}
+
+.popup-img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.content-img {
+    width: 45%;
+    position: absolute;
+    top: 13%;
+    right: 5%;
+    float: left;
+}
+
+.caption {
+    position: absolute;
+    top: 40%;
+    left: 50px;
+    font-size: 35px;
+    font-family: nagomi ,'M PLUS Rounded 1c', sans-serif;
+}

@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: nagomi;
+    src: url(nagomi.otf) format("opentype");
+}
+
+body {
+    width: 100%;
+    background: #FFDDDB;
+    background-size: cover;
+}
+
+.titleImg {
+    margin: 0 auto;
+    width: 33%;
+    display: block;
+}
+
+.backButton {
+    width: 20%;
+    position: fixed;
+    bottom: 5%;
+    right: 6%;
+}
+
+
+.introduction1 {
+    position: relative;
+    margin: 30px auto 50px;
+    height: 400px;
+    width: 65%;
+    border: solid 5px #fff;
+    border-radius: 30px;
+    background-color: #fff;
+}
+
+.portrait {
+    width: 300px;
+    margin-top: 40px;
+}
+
+.myname {
+    position: absolute;
+    top: 10%;
+    float: right;
+    font-family: nagomi;
+    font-size: 60px;
+}
+
+.paragraph {
+    position: absolute;
+    top: 35%;
+    margin-left: 16px;
+    float: right;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 28px;
+}
+
+.character {
+    width: 84%;
+    margin: 0 auto;
+    border: solid 5px;
+    padding-bottom: 30px;
+}
+
+.container {
+    width: 95%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.option {
+    width: 115px;
+    height: 115px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.characterImg {
+    width: 55%;
+    float: left;
+}
+
+.intoroduction2 {
+    position: relative;
+    margin: 30px auto 0px;
+    height: 400px;
+    width: 60%;
+}
+
+.name {
+    position: absolute;
+    top: 20%;
+    right: 18%;
+    font-family: "Nico Moji";
+    font-size: 73px;
+    color:
+}
+
+.infomation {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 24px;
+}
+
+#character1:not(:target) {
+    display: none;
+}
+
+#character1:target {
+    display: block;
+}
+
+#character2:not(:target) {
+    display: none;
+}
+
+#character2:target {
+    display: block;
+}
+
+#character3:not(:target) {
+    display: none;
+}
+
+#character3:target {
+    display: block;
+}
+
+
+#character4:not(:target) {
+    display: none;
+}
+
+#character4:target {
+    display: block;
+}
+
+#character5:not(:target) {
+    display: none;
+}
+
+#character5:target {
+    display: block;
+}
+
+#character6:not(:target) {
+    display: none;
+}
+
+#character6:target {
+    display: block;
+}
+
+#character7:not(:target) {
+    display: none;
+}
+
+#character7:target {
+    display: block;
+}
+
+#character8:not(:target) {
+    display: none;
+}
+
+#character8:target {
+    display: block;
+}
+
+#character9:not(:target) {
+    display: none;
+}
+
+#character9:target {
+    display: block;
+}

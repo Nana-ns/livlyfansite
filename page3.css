@@ -1,0 +1,33 @@
+body {
+    width: 100%;
+    background: #FFDDDB;
+    background-size: cover;
+}
+
+.backButton {
+    width: 13%;
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+}
+
+.titleImg {
+    margin: 0 auto;
+    width: 25%;
+    display: block;
+}
+
+.container {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 45%;
+    height: 30%;
+    align-items: flex-start;
+}
