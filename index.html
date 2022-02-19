@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>title</title>
+    <link rel="stylesheet" href="top.css">
+    <link href="https://fonts.googleapis.com/css?family=Advent+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:100&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!--   <div id="header">-->
+        <!--      <p class="title">WebSiteTitle</p>-->
+        <!--   </div>-->
+        <div class="heroimg">
+        </div>
+        <div class="fuwat">
+            <p class="caption">はじめまして</p>
+        </div>
+        <div class="fuwat">
+            <p class="paragraph1">
+                LivlyIslandという<br>
+                ふしぎな生き物のお世話ゲームの<br>
+                思い出などをまとめています<br>
+            </p>
+        </div>
+
+        <div class="button fuwat">
+            <a href="page3.html">
+                <div class="b2"><img src="buttonT2.png" alt=""></div>
+            </a>
+
+            <a href="page2.html">
+                <div class="b1"><img src="buttonT1.png" alt=""></div>
+            </a>
+
+            <a href="page4.html">
+                <div class="b3"><img src="buttonT3.png" alt=""></div>
+            </a>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.fuwat').css('visibility', 'hidden');
+            $(window).scroll(function() {
+                var windowHeight = $(window).height(),
+                    topWindow = $(window).scrollTop();
+                $('.fuwat').each(function() {
+                    var objectPosition = $(this).offset().top;
+                    if (topWindow > objectPosition - windowHeight + 200) {
+                        $(this).addClass("fuwatAnime");
+                    }
+                });
+            });
+        });
+    </script>
+</body></html>
